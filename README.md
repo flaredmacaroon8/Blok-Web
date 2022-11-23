@@ -16,7 +16,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Dana Arab Ovisi
+  Sanne 't Hooft (vervangen door jouw naam)
 
   #### Je startniveau:
   hier je startniveau (kies uit zwart, rood óf blauw)
@@ -57,14 +57,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
-    Het proberen na te doen van beperkingen ging lastig. Het kijken met een wazige bril was overigens wel
-    lastig. Zo bleek dat de site niet goed contrast heeft. De letters en de achtergrond zijn makkelijk van
-    elkaar te onderscheiden zonder waas. Met waas zie je helemaal niet wat er staat.
+
   #### Screenreader
   Hier korte omschrijving (met indien nodig afbeeldingen)
-    Leest enorm langzaam en herhaald bij elke pagina weer de header. Ook kan het niet de titels in foto's lezen.
+
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-    Screen reader snelheid verhogen en tags of iets toevoegen aan de plaatjes zodat de screenreader weet wat er staat.
+
 
   #### Muis en Toetsenbord 
   Hier korte omschrijving (met indien nodig afbeeldingen)
@@ -74,15 +72,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Motoriek (shocks, elastiekjes)
   Hier korte omschrijving (met indien nodig afbeeldingen)
-    Vingers werden met een elastiek bij elkaar gehouden. Hierdoor zou het typen lastiger moeten worden, maar dit was niet het geval.
+
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-  -
+
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
   Hier korte omschrijving (met indien nodig afbeeldingen)
-    Zoals omschreven bij bevindingen.
+
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-    Het contrast tussen letters en de achtergrond vergroten. Hiermee word bedoeld dat de kleuren van de 2 tegenovergesteld van elkaar zijn.
+
 </details>
 
 

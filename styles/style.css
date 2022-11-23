@@ -32,3 +32,44 @@ button, summary {
 
 /* jouw code */
 
+header ul {
+	display: flex;
+	background-color: #ffc426;
+}
+
+body {
+	margin: 0;
+    padding: 0;
+}
+
+ul li:nth-of-type(6) {
+	align-self: start;
+	justify-self: end;
+	padding-left: 0em;
+}
+
+img {
+	height: 4em;
+}
+
+a {
+	font-size: 0.6em;
+	margin: auto;
+}
+
+h2 {
+	font-size: 0.8em;
+	margin: auto;
+	padding-top: 1em;
+	transform: scale(1, 2);
+	
+}
+
+h2 :hover {
+	color: aqua;
+}
+
+ul {
+	display: flex;
+	padding: aut;
+}
