@@ -35,41 +35,59 @@ button, summary {
 header ul {
 	display: flex;
 	background-color: #ffc426;
+	list-style-type: none;
+	font-size: 1.2em;
+	margin: 0;
+	padding: 0;
+	height: auto;
 }
+
+header a {
+	font-size: 0.6em;
+	margin: auto;
+	text-decoration: none;
+	color: #111;
+}
+
+h1{
+	margin: 0;
+}
+
+img {
+	height: 3em;
+	padding: 0;
+	margin: 0;
+}
+
+ul li {
+	font-size: 1em;
+	margin: auto;
+}
+
+ul li:nth-of-type(5) {
+	align-self: start;
+	justify-self: end;
+	padding-left: 1em;
+}
+
+
 
 body {
 	margin: 0;
     padding: 0;
 }
 
-ul li:nth-of-type(6) {
-	align-self: start;
-	justify-self: end;
-	padding-left: 0em;
-}
-
-img {
-	height: 4em;
-}
-
 a {
-	font-size: 0.6em;
-	margin: auto;
-}
-
-h2 {
 	font-size: 0.8em;
 	margin: auto;
 	padding-top: 1em;
 	transform: scale(1, 2);
-	
+	text-decoration: none;
+	color: #111;
 }
 
-h2 :hover {
-	color: aqua;
-}
-
-ul {
+body ul {
 	display: flex;
-	padding: aut;
+	padding: auto;
+	list-style-type: none;
 }

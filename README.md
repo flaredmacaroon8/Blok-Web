@@ -40,11 +40,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="homepage van pathe.nl">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/pathe.jpg" width="375px" alt="de pagina van het kopje films">
  
 </details>
 
@@ -57,29 +57,33 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
-
+  Het nadoen van een beperking is erg lastig en komt niet overeen met de realiteit.
   #### Screenreader
   Hier korte omschrijving (met indien nodig afbeeldingen)
-
+  Een screenreader leest voor wat er op het scherm staat voor blinde gebruikers.
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  Het was enorm irritant en verliep erg langzaam. Alles werd ook telkens herhaald.
 
   #### Muis en Toetsenbord 
   Hier korte omschrijving (met indien nodig afbeeldingen)
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  Dit ging zoals gedacht erg makkelijk.
 
   #### Motoriek (shocks, elastiekjes)
   Hier korte omschrijving (met indien nodig afbeeldingen)
-
+  Het nadoen van een slecht motoriek.
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  De elastiekjes hadden bijna geen impact op het navigeren door de site.
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
   Hier korte omschrijving (met indien nodig afbeeldingen)
+  Een bril met verschillende soorten visuele stoornissen.
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  De wazige bril was het meest realistisch. Er bleek dat letters die normaal makkelijk van de achtergrond te onderscheiden zijn,
+  nu juist moeilijk te onderscheiden waren. Als de kleuren zelfs enigzins in het zelfde kleurenpallet vallen, kun je ze niet 
+  onderscheiden.
 
 </details>
 
@@ -112,6 +116,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Het maken van de header ging lastiger dan gedacht omdat de html code eerst niet correct was. Na het correct maken
+  daarvan stond alles verkeerd, en zelfs na alles in css correct aan te passen stond het nogsteeds niet goed.
+  Ook probeer ik nog uit te zoeken hoe ik nou de films naast elkaar kan plaatsen.
+ 
+   <img src="readme-images/html1.jpg" width="375px" alt="html code">
+    <img src="readme-images/site1.jpg" width="375px" alt="Site tot nu toe">
+
 
 
   ### Agenda voor meeting
