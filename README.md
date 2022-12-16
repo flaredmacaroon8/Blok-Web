@@ -23,7 +23,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Je focus:
   hier je focus (kies uit responsive óf surface plane)
- 
+ surface plane
 </details>
 
 
@@ -157,6 +157,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+Deze week was ik jammer genoeg ziek.
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -183,6 +184,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
 ## Toegankelijkheidstest 2/2 (week 4)
+
+Ook hier was ik nog ziek.
 
 <details>
   <summary>uitwerken na test in 8e werkgroep</summary>
@@ -227,6 +230,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+Het maken van de site ging beter dan gedacht. Het begint steeds meer te lijken op de echte pathe site.
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -241,10 +245,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - CSS mooi maken.
+  - nth of type leren.
 
 </details>
 
@@ -258,19 +260,19 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
-
+  <img src="readme-images/wittetekst.jpg" width="375px" alt="uitomst opdracht 1">
+De tekst hover met effect is mooi gelukt.
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+Door op de juiste film te klikken, verander de background naar de gekozen film.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/achtergrondswitch.jpg" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  De achtergrond was niet weer terug te veranderen naar het plaatje ervoor.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/error.jpg" width="375px" alt="bummer">
 </details>
 
 
@@ -284,8 +286,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. https://stackoverflow.com/questions/26699589/how-to-set-a-list-of-images-next-to-eachother
+  2. Russell hulp
+  3. pathe.nl voor images.
+  4. https://www.youtube.com/watch?v=FEmysQARWFU
 
 </details>

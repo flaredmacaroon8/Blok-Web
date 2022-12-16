@@ -2,92 +2,332 @@
 /* CSS REMEDY */
 /**************/
 *, *::after, *::before {
-  box-sizing:border-box;  
-}
+	box-sizing:border-box;  
+  }
+  
+  button, summary {
+	  cursor: pointer;
+  }
+  
+  
+  
+  
+  
+  /*********************/
+  /* CUSTOM PROPERTIES */
+  /*********************/
+  :root {
+	  /* startje */
+	  --color-text:#111;
+	  --color-background:#eee;
+  }
+  
+  
+  
+  
+  
+  /****************/
+  /* JOUW STYLING */
+  /****************/
+  
+  /* jouw code */
+  
+  
+/*Header*/
+  header ul {
+	  display: flex;
+	  background-color: #ffc426;
+	  list-style-type: none;
+	  font-size: 1.2em;
+	  margin: 0;
+	  padding: 0;
+	  height: auto;
+  }
+  
+  header a {
+	  font-size: 0.5em;
+	  font-weight: bold;
+  }
 
-button, summary {
-	cursor: pointer;
-}
+  header img {
+	  height: 5em;
+	  padding: 0;
+	  margin: 0;
+	  display: flex;
+  }
 
 
+/*header styling */ /*n+2 houd in dat deze functie bij de 2e img begint*/
+  header li:nth-of-type(n+2) img{
+	  height: 1.2em;
+	  margin-top: 0.3em;
+  }
+  
+  header li {
+	  display: inline;
+	  justify-content: center;
+	  align-items: center;
+  }
+  
+  ul li {
+	  font-size: 1em;
+	  margin: auto;
+	  display: flex;
+	  flex-direction: column;
+  }
+  
+  ul li:nth-of-type(5) {
+	  align-self: start;
+	  justify-self: end;
+	  padding-left: 0em;
+  }
+  
+  
+/*body gedeelte*/
+  body {
+	  margin: 0;
+	  padding: 0;
+	  font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body ul {
+	  display: flex;
+	  list-style-type: none;
+  }
+  
+  a {
+	  font-size: 1.2em;
+	  margin: auto;
+	  /* padding-top: 1em;
+	  transform: scale(1, 2); */
+	  text-decoration: none;
+	  color: #111;
+  }
+  
+  main {
+	  background-image: url(../images/StrangeWorld.png);
+	  padding: 0;
+	  margin: 0;
+  }
 
+	.aangepaste{
+		background-image: url(../images/blackpanther_blur.png);
+		padding: 0;
+		margin: 0;
+	}
 
+	.menuAchtergrond{
+		background-image: url(../images/menublur.png);
+		padding: 0;
+		margin: 0;
+		display: block;
+	}
+	
+/*nu binnenkort etc stuk*/
 
-/*********************/
-/* CUSTOM PROPERTIES */
-/*********************/
-:root {
-	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
-}
-
-
-
-
-
-/****************/
-/* JOUW STYLING */
-/****************/
-
-/* jouw code */
-
-header ul {
-	display: flex;
-	background-color: #ffc426;
-	list-style-type: none;
+ main a:hover {
 	font-size: 1.2em;
-	margin: 0;
-	padding: 0;
-	height: auto;
-}
-
-header a {
-	font-size: 0.6em;
 	margin: auto;
-	text-decoration: none;
-	color: #111;
-}
+	text-decoration: overline;
+	color: white;
+  }
 
-h1{
-	margin: 0;
-}
+  main nav ul a{
+	  color: #ffc426;
+	  font-weight: bold;
+  }
+  
+  main nav ul {
+	  display: flex;
+	  padding: 2em 0 1em 0;
+	  margin: 0;
+	  list-style-type: none;
+	  justify-content: center; 
+	  align-items: center;
+	  transform: scale(1, 2);
+  }
+  
+/*hover effect: witte bar onder text */
+	main nav a::before {
+		content: '';
+		display: block;
+		height: 1px;
+		background-color:white;
 
-img {
-	height: 3em;
-	padding: 0;
-	margin: 0;
-}
+		position: absolute;
+		top: 1em;
+		width: 0%;
 
-ul li {
+		transition: all ease-in-out 250ms;
+		}
+
+	main nav a:hover::before {
+		width: 100%;
+	}
+
+	nav li {
+		padding-bottom: 1%;
+
+		position: relative;
+	}
+	
+  
+/*De films scrollen */
+  main ul:nth-of-type(1) {
+	  overflow-x: scroll;
+	  overflow-y: hidden;
+	  white-space: nowrap;
+	}
+  
+  main ul:nth-of-type(1) li{
+	  display: inline-block;
+	}
+  
+  
+  main ul img {
+	  height: 13em;
+	  padding: 0;
+	  margin: 0 2em 0 2em;
+  }
+  
+  main ul img:hover{
+	  height: 15em;
+	  padding: 0;
+	  margin: 0 2em 0 2em;
+  }
+  
+  p {
+	  text-align: center;
+	  color: #eee;
+  }
+  
+  main ul {
+	  display: flex;
+  }
+
+
+
+
+/*voor het blokje "bestel je tickets"*/
+	h3{
+		color: #eee;
+		font-size: 1em;
+		transform: scale(1, 1.2);
+	}
+
+  .BestelTickets{
+	  background-color: #28292a;
+	  height: 20em;
+	  padding: 0.5em 0 0 0.5em;
+  }
+  
+  .BestelTickets a{
+	  color: #eee;
+	  font-weight: bold;
+  }
+  
+  .container{
+	  width: 100%;
+	  min-height: 3em;
+	  padding: 5%;
+  }
+  
+  .container a{
+	  color:#eee;
+  }
+  
+  input{
+	  height: 3em;
+	  width: 16em;
+	  border-radius: 0.7em;
+  }
+
+  
+  h4{
+	color: #eee;
 	font-size: 1em;
-	margin: auto;
+	font-weight: bold;
+	transform: scale(1, 1.2);
 }
+  
+  
+  
+/* stukje over bioscopen */
+  h5 {
+	  color: #eee;
+	  margin-left: 2em;
+	  font-size: 0.9em;
+	  transform: scale(1, 1.2);
+  }
+  
+  .bioscopen{
+	  background-color: #111;
+	  height: 30em;
+	  padding: 0.5em 0 0 0.5em;
+	  border-radius: 15px 15px 0 0;
+	  margin-top: -6em; 
+  }
+  
+  .bioscopen li{
+	  text-align: center;
+  }
+  
+  main section ul:nth-of-type(1) p{
+	  font-size: 1em;
+  }
+  
+  main section ul:nth-of-type(1) img{
+	  height: 8em;
+  }
+  
+  
+  .bioscopen button{
+	  border-radius: 10px;
+	  border-style: solid;
+	  height: 4em;
+	  width: 16em;
+	  background-color: #111;
+	  border-color: #ffc426;
+	  color: #fff;
+	  font-weight: bold;
+  }
+  
+  
+  
+  main ul:nth-of-type(1) {
+	  overflow-x: scroll;
+	  overflow-y: hidden;
+	  white-space: nowrap;
+	}
+  
+  main ul:nth-of-type(1) li{
+	  display: inline-block;
+	}
+  
+  
+  
+/*Footer*/
+  footer ul li img{
+	  height: 2em;
+	  bottom: 0;
+	  position: static;
+	  margin: 1em 0 1em 0;
+	  padding: 0;
+	  align-items: center;
+  }
+  
+  footer{
+	  display: block;
+	  position:static;
+	  bottom:0;
+	  width:100%; 
+	  background:#ffc426;
+	  margin: 0;
+	  padding: 0;
+  }
 
-ul li:nth-of-type(5) {
-	align-self: start;
-	justify-self: end;
-	padding-left: 1em;
-}
-
-
-
-body {
+  footer ul{
 	margin: 0;
-    padding: 0;
-}
+	padding: 0;
+  }
 
-a {
-	font-size: 0.8em;
-	margin: auto;
-	padding-top: 1em;
-	transform: scale(1, 2);
-	text-decoration: none;
-	color: #111;
-}
-
-body ul {
-	display: flex;
-	padding: auto;
-	list-style-type: none;
-}

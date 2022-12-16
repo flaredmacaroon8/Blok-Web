@@ -1,0 +1,209 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+*, *::after, *::before {
+	box-sizing:border-box;  
+  }
+  
+  button, summary {
+	  cursor: pointer;
+  }
+  
+  
+  
+  
+  
+  /*********************/
+  /* CUSTOM PROPERTIES */
+  /*********************/
+  :root {
+	  /* startje */
+	  --color-text:#111;
+	  --color-background:#eee;
+  }
+  
+  
+  
+  
+  
+  /****************/
+  /* JOUW STYLING */
+  /****************/
+  
+  /* jouw code */
+ 
+/*Header*/
+  header ul {
+	  display: flex;
+	  background-color: #ffc426;
+	  list-style-type: none;
+	  font-size: 1.2em;
+	  margin: 0;
+	  padding: 0;
+	  height: auto;
+  }
+  
+  header a {
+	  font-size: 0.5em;
+	  font-weight: bold;
+  }
+  
+  h2{
+    margin-top: 0;
+    padding: 0.6em 0 0 0.6em;
+  }
+
+  header img {
+	  height: 5em;
+	  padding: 0;
+	  margin: 0;
+	  display: flex;
+  }
+  
+  
+/*header styling */ /*n+2 houd in dat deze functie bij de 2e img begint*/
+  header li:nth-of-type(n+2) img{
+	  height: 1.2em;
+	  margin-top: 0.3em;
+  }
+  
+  header li {
+	  display: inline;
+	  justify-content: center;
+	  align-items: center;
+  }
+  
+  ul li {
+	  font-size: 1em;
+	  margin: auto;
+	  display: flex;
+	  flex-direction: column;
+  }
+  
+  ul li:nth-of-type(5) {
+	  align-self: start;
+	  justify-self: end;
+	  padding-left: 0em;
+  }
+  
+  
+/*body gedeelte*/
+  body {
+	  margin: 0;
+	  padding: 0;
+	  font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body ul {
+	  display: flex;
+	  list-style-type: none;
+  }
+  
+  a {
+	  font-size: 1.2em;
+	  margin: auto;
+	  text-decoration: none;
+	  color: #111;
+  }
+  
+ main a:hover {
+	  font-size: 1.2em;
+	  margin: auto;
+	  text-decoration: underline;
+	  color: white;
+	}
+  
+  main {
+	  background-color: #f5f5f5;
+	  padding: 0;
+	  margin: 0;
+  }
+  
+  
+  
+  
+/*De films scrollen */
+  main ul{
+	  overflow-x: scroll;
+	  overflow-y: hidden;
+	  white-space: nowrap;
+	}
+  
+  main ul li{
+	  display: inline-block;
+	}
+  
+  
+  main ul img {
+	  height: 5em;
+	  padding: 0;
+	  margin: 0 0.2em 0 0.2em;
+  }
+  
+  main ul img:hover{
+	  height: 6em;
+	  padding: 0;
+	  margin: 0 0.2em 0 0.2em;
+  }
+  
+  p {
+	  text-align: center;
+	  color: #151515;
+      margin-top: 0;
+      font-size: 0.8em;
+  }
+  
+  main ul {
+	  display: flex;
+      margin: 0;
+  }
+  
+
+  .button{
+    display: flex;
+    justify-content: flex-end;
+    margin: 1em 1em 1em 0 ;
+}
+
+	button{
+		border-radius: 7px;
+		border-style: solid;
+		height: 3em;
+		width: 8em;
+		background-color: white;
+		border-color: #ffc426;
+		color: black;
+		font-weight: bold;
+		right: 0;
+	}
+
+	div:nth-of-type(4){
+		margin-bottom: 0;
+		padding-bottom: 1em;
+	}
+
+  
+/*Footer*/
+  footer ul li img{
+	  height: 2em;
+	  bottom: 0;
+	  position: static;
+	  margin: 1em 0 1em 0;
+	  padding: 0;
+	  align-items: center;
+  }
+  
+  footer{
+	  display: block;
+	  position:static;
+	  bottom:0;
+	  width:100%; 
+	  background:#ffc426;
+	  margin: 0;
+	  padding: 0;
+  }
+
+  footer ul{
+	margin: 0;
+	padding: 0;
+  }

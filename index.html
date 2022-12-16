@@ -1,13 +1,13 @@
 <!doctype html>
 <html lang="nl">
-	
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="author" content="jouw naam">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
+
 	<title>Pathe</title>
-	
+
 	<link href="styles/style.css" rel="stylesheet">
 	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
 
@@ -15,21 +15,92 @@
 
 <body>
 	<header>
-		<ul>
-			<li><h1><a href=""><img src="./images/pathe.jpg" alt="Pathe" /></a></h></li>
-			<li><a href="">Films</a></li>
-			<li><a href="">Tijden</a></li>
-			<li><a href="">Bioscopen</a></li>
-			<li><a href="">Menu</a></li>
-		</ul>
+		<nav>
+			<ul>
+				<li>
+					<h><a href="/index.html"><img src="./images/pathe.jpg" alt="Pathe" /></a></h>
+				</li>
+				<li><img src="./images/movie-black.png" alt="Films" /><a href="/page2.html">Films</a></li>
+				<li><img src="./images/time-black.png" alt="Tijden" /><a href="">Tijden</a></li>
+				<li><img src="./images/NicePng_map-pointer-png_3683241.png" alt="Bioscopen" /><a href="">Bioscopen</a></li>
+				<li class="menu"><img src="./images/menu-icon.png" alt="Menu" /><a href="">Menu</a></li>
+			</ul>
+		</nav>
 	</header>
-<ul class="tweede ul">
-	<li><a href="">NU</a></li>
-	<li><a href="">BINNENKORT</a></li>
-	<li><a href="">SPECIALS</a></li>
-	<li><a href="">KIDS</a></li>
-</ul>	
-	<script defer src="scripts/script.js"></script>
+	<main>
+		<nav>
+			<ul>
+				<li><a href="./page2.html">NU</a></li>
+				<li><a href="">BINNENKORT</a></li>
+				<li><a href="">SPECIALS</a></li>
+				<li><a href="">KIDS</a></li>
+			</ul>
+		</nav>
+		<ul class="nav">
+			<li>
+				<h2><a><img src="./images/BlackPanther.jpg" alt="Black Panther" /></a></h2>
+				<p>Black Panther</p>
+			</li>
+			<li>
+				<h2><a><img src="./images/MenuMovie.jpg" alt="The Menu" /></a></h2>
+				<p>The Menu</p>
+			</li>
+			<li>
+				<h2><a href=""><img src="./images/PieceOfHeart.jpg" alt="Piece of Heart" /></a></h2>
+				<p>Piece of Heart</p>
+			</li>
+			<li>
+				<h2><a href=""><img src="./images/SinterklaasFIlm.jpg" alt="Sinterklaas Film" /></a></h2>
+				<p>Sinterklaas film</p>
+			</li>
+			<li>
+				<h2><a href=""><img src="./images/StrangeWorld.jpg" alt="Strange World" /></a></h2>
+				<p>Strange World</p>
+			</li>
+			<li>
+				<h2><a href=""><img src="./images/ViolentHalloween.jpg" alt="Violent Halloween" /></a></h2>
+				<p>Violent Halloween</p>
+			</li>
+		</ul>
+		<section class="BestelTickets">
+			<h3>BESTEL NU JE TICKETS</h3>
+			<a>Wat is jouw locatie?</a>
+			<div class="container">
+				<form action="">
+					<input type="text" placeholder="Postcode of woonplaats" name="locatie invoeren">
+			</div>
+			<h4>DIT VOND JE INTERESSANT</h4>
+		</section>
+		<section class="bioscopen">
+			<h5>BIOSCOPEN</h5>
+			<ul>
+				<li>
+					<h2><a href=""><img src="./images/Haarlem.jpg" alt="Pathe Haarlem" /></a></h2>
+					<p>PATHE HAARLEM</p><button>> BEKIJK FILMAANBOD</button>
+				</li>
+				<li>
+					<h2><a href=""><img src="./images/Munt.jpg" alt="Pathe Munt" /></a></h2>
+					<p>PATHE MUNT</p><button>> BEKIJK FILMAANBOD</button>
+				</li>
+				<li>
+					<h2><a href=""><img src="./images/Tuschinski.jpg" alt="Pathe Tuschinski" /></a></h2>
+					<p>KONINKLIJK THEATER TUSCHINSKI</p><button>> BEKIJK FILMAANBOD</button>
+				</li>
+				<li>
+					<h2><a href=""><img src="./images/city.jpg" alt="Pathe City" /></a></h2>
+					<p>PATHE CITY</p><button>> BEKIJK FILMAANBOD</button>
+				</li>
+			</ul>
+		</section>
+	</main>
+	<footer>
+		<ul>
+			<li><a href=""><img src="./images/facebook.png" alt="Facebook"></a></li>
+			<li><a href=""><img src="./images/instagram.png" alt="Instagram"></a></li>
+			<li><a href=""><img src="./images/twitter.png" alt="Twitter"></a></li>
+		</ul>
+	</footer>
+	<script defer src="./scripts/script.js"></script>
 </body>
-	
+
 </html>
